@@ -5,7 +5,7 @@ RTC_CONFIGURATION = RTCConfiguration(
     {"iceServers": [{"urls": ["turn:relay.backups.cz"], "credential": "webrtc","username": "webrtc" },
  {
      "urls":["turn:relay.backups.cz?transport=tcp"],"credential": "webrtc",
-     "username": "webrtc"},"]}
+     "username": "webrtc"}"]}
 )
 
 class VideoProcessor:
