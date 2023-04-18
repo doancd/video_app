@@ -3,7 +3,7 @@ import av
 
 RTC_CONFIGURATION = RTCConfiguration(
     {"iceServers": [{"urls": ["turn:relay.backups.cz",
-     "credential": "webrtc",
+     "credential":"webrtc",
      "username": "webrtc"
  },
  {
