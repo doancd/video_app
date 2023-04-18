@@ -2,11 +2,11 @@ from streamlit_webrtc import webrtc_streamer, WebRtcMode, RTCConfiguration
 import av
 
 RTC_CONFIGURATION = RTCConfiguration(
-    {iceServers: [{
-      urls: ['stun:stun.l.google.com:19302']
+    {"iceServers": [{
+      "urls": ["stun:stun.l.google.com:19302"]
     },
     {
-      urls: ['turn:numb.viagenie.ca'],
+      "urls": ["turn:numb.viagenie.ca"],
       credential: 'muazkh',
       username: 'webrtc@live.com'
     }
