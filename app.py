@@ -7,8 +7,8 @@ RTC_CONFIGURATION = RTCConfiguration(
     },
     {
       "urls": ["turn:numb.viagenie.ca"],
-      credential: 'muazkh',
-      username: 'webrtc@live.com'
+      credential: "muazkh",
+      username: "webrtc@live.com"
     }
   ]}
 )
