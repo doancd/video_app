@@ -2,10 +2,7 @@ from streamlit_webrtc import webrtc_streamer, WebRtcMode, RTCConfiguration
 import av
 
 RTC_CONFIGURATION = RTCConfiguration(
-    {"iceServers": [{"urls": ["turn:relay.backups.cz",
-     "credential":"webrtc",
-     "username": "webrtc"
- },
+    {"iceServers": [{"urls": ["turn:relay.backups.cz", "credential":"webrtc","username": "webrtc" },
  {
      "urls":["turn:relay.backups.cz?transport=tcp",
      "credential": "webrtc",
