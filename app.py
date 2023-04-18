@@ -2,7 +2,17 @@ from streamlit_webrtc import webrtc_streamer, WebRtcMode, RTCConfiguration
 import av
 
 RTC_CONFIGURATION = RTCConfiguration(
-    {"iceServers": [{"urls": ["turn:relay.backups.cz"]}]}
+    {"iceServers": [{"urls": ["turn:
+ {
+     url: 'turn:relay.backups.cz',
+     credential: 'webrtc',
+     username: 'webrtc'
+ },
+ {
+     url: 'turn:relay.backups.cz?transport=tcp',
+     credential: 'webrtc',
+     username: 'webrtc'
+ },"]}]}
 )
 
 class VideoProcessor:
